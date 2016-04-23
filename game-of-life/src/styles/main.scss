@@ -1,0 +1,29 @@
+.cell-alive {
+  background-color: black;
+}
+
+.cell-dead {
+  background-color: white;
+}
+
+.board {
+  border: 5px solid #aaa;
+  border-radius: 5px;
+}
+
+.generation {
+  position: absolute;
+  border: 3px solid #aaa;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 2.2em;
+  min-width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+}
+
+.btn {
+  margin: 5px;
+}
