@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true,
+    "es6": true
+  },
+  "globals": {
+    "jQuery": true,
+    "$": true
+  },
+  "plugins": [
+    "react"
+  ]
+}
