@@ -10,7 +10,7 @@ const LeaderboardTable = React.createClass({
   render: function() {
     var rows = [];
     this.props.leaders.forEach(function(leader, index) {
-      rows.push(<LeaderRow leader={leader} />);
+      rows.push(<LeaderRow key={leader.username} leader={leader} />);
     }.bind(this));
     return (
       <table>
