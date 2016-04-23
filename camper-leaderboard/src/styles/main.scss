@@ -1,0 +1,45 @@
+.leaderboard img {
+  width: 80px;
+  border-radius: 10px;
+  border: 3px solid #aaaaaa;
+}
+
+.leaderboard table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.leaderboard th {
+  font-size: 1.5em;
+  padding: 5px;
+  background-color: rgb(60, 118, 61);
+  cursor: pointer;
+}
+
+.leaderboard td {
+  padding: 5px;
+}
+
+.leaderboard tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.leaderboard .panel-body {
+  padding: 0;
+}
+
+.row-rank {
+  width: 10%;
+}
+
+.row-name {
+  width: 40%;
+}
+
+.row-recentPoints {
+  width: 25%;
+}
+
+.row-alltimePoints {
+  width: 25%;
+}
